@@ -1549,6 +1549,7 @@ footer{
     .present-rel{
         overflow-x: auto;
         margin-right: -16px;
+        padding-bottom: 12px;
     }
     .present-rel::-webkit-scrollbar {
         width: 0;
@@ -1557,6 +1558,9 @@ footer{
     .present-rel::-webkit-scrollbar-thumb {
         width: 0;
         height: 0;
+    }
+    .present-main {
+        padding-bottom: 48px;
     }
     .present-slider{
         width: 1216px;
@@ -1795,7 +1799,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 38px;
     }
     .present-fon {
         margin-top: 40px;
@@ -1862,6 +1866,9 @@ footer{
         margin: 0 auto;
         max-width: 420px;
 
+    }
+    .present-main {
+        padding-bottom: 60px;
     }
     .reviews-box p {
         font-size: 14px;
