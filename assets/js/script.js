@@ -21,7 +21,7 @@ $(document).ready(function () {
         $('.menu-content').removeClass('transition-menu');
         $('.open-menu').removeClass('close-menu');
     })
-    $('.body').on('click', function () {
+    $('body').on('click', function () {
         $('.menu-content').addClass('menu-width');
         $('body').removeClass('body_fix');
         $('.menu-content').removeClass('transition-menu');
