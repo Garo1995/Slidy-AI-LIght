@@ -1116,6 +1116,8 @@ p{
 }
 .network-adapts-slider{
     width: 1467px;
+    overflow: unset;
+
     border-radius: 12px;
 }
 .network-adapts-box{
@@ -1133,6 +1135,7 @@ p{
 }
 .reviews-slider{
     width: 1614px;
+    overflow: unset;
 }
 .reviews-main .all-title p{
     max-width: 400px;
@@ -2072,7 +2075,7 @@ footer{
         height: 15px;
     }
     .advantages-box:hover .fully-editable {
-        right: 31px;
+        right: 56px;
     }
     .advantages-box:hover .fully-boxes-st:first-child {
         height: 22px;
@@ -2246,5 +2249,19 @@ footer{
     }
     .animated-white .arrow svg path {
         fill: #FFFFFF;
+    }
+    .advantages-box {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 400px){
+    .advantages-box:hover .fully-editable {
+        right: 38px;
+    }
+}
+@media (max-width: 374px){
+    .advantages-box:hover .fully-editable {
+        right: 33px;
     }
 }
